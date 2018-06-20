@@ -1,19 +1,23 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LibraryPage } from '../library/library';
 
-/**
- * Generated class for the FavoritesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
   selector: 'page-favorites',
   templateUrl: 'favorites.html',
+  template: `
+  <ion-tabs>
+      <ion-tab [root]="favoritesPage" tabTitle="Favorites" tabIcon="star"></ion-tab>
+      <ion-tab [root]="libaryPage" tabTitle="Library" tabIcon="star"></ion-tab>
+  </ion-tabs>
+  `,
 })
 export class FavoritesPage {
+
+  favoritesPage = FavoritesPage;
+  libaryPage = LibraryPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
