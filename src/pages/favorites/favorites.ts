@@ -5,14 +5,12 @@ import { LibraryPage } from '../library/library';
 
 @IonicPage()
 @Component({
-  selector: 'page-favorites',
-  templateUrl: 'favorites.html',
   template: `
   <ion-tabs>
       <ion-tab [root]="favoritesPage" tabTitle="Favorites" tabIcon="star"></ion-tab>
       <ion-tab [root]="libaryPage" tabTitle="Library" tabIcon="star"></ion-tab>
   </ion-tabs>
-  `,
+  `
 })
 export class FavoritesPage {
 
