@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { FavoritesPage } from "../favorites/favorites/favorites";
-import { LibraryPage } from "../library/library/library";
+import { FavoritesPage } from "../pages/favorites/favorites/favorites";
+import { LibraryPage } from "../pages/library/library/library";
 
 @Component({
     selector: 'page-tabs',

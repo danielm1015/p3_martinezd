@@ -3,8 +3,8 @@ import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../tabs/tabs';
-import { QuotesPage } from '../quotes/quotes/quotes';
-import { QuotePage } from '../quote/quote/quote';
+import { QuotesPage } from '../pages/quotes/quotes/quotes';
+import { QuotePage } from '../pages/quote/quote/quote';
 
 
 @Component({

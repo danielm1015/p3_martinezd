@@ -5,11 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { LibraryPage } from '../library/library/library';
-import { QuotePage } from '../quote/quote/quote';
-import { QuotesPage } from '../quotes/quotes/quotes';
+import { FavoritesPage } from '../pages/favorites/favorites/favorites';
+import { LibraryPage } from '../pages/library/library/library';
+import { QuotePage } from '../pages/quote/quote/quote';
+import { QuotesPage } from '../pages/quotes/quotes/quotes';
 import { TabsPage } from '../tabs/tabs';
-import { FavoritesPage } from '../favorites/favorites/favorites';
 
 @NgModule({
   declarations: [
