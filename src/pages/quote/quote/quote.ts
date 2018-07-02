@@ -9,7 +9,7 @@ import { Quote } from '../../../data/data.interface';
 })
 export class QuotePage implements OnInit {
 
-  quoteGroup: {category: string, contacts: Quote[], icon: string}[];
+  quoteGroup: {category: string, quotes: Quote[], icon: string}[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
