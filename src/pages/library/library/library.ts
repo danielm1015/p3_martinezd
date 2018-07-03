@@ -13,8 +13,7 @@ import { QuotePage } from '../../quote/quote/quote';
 export class LibraryPage  implements OnInit{
 
   quoteCollection: {category: string, quotes: Quote[], icon: string};
-  quotePage = QuotePage;
-
+  quotePage = QuotePage
   constructor(public navCtrl: NavController) {
   }
 
